@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ffe4f2, #e3f2fd);
+    color: #555;
+}
+
+.container {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #b388ff; /* Morado pastel */
+}
+
+.subtitle {
+    margin-top: 10px;
+    color: #7e57c2;
+    font-size: 1.1em;
+}
+
+.comparison-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 270px;
+    height: 170px;
+    margin: 15px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 20px;
+    transition: 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card-a {
+    background-color: #f8bbd0; /* Rosado pastel */
+}
+
+.card-b {
+    background-color: #bbdefb; /* Azul pastel */
+}
+
+.card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.vs {
+    font-size: 1.8em;
+    color: #9575cd;
+    font-weight: bold;
+}
+
+.ranking-box {
+    background-color: #ede7f6; /* Morado muy claro */
+    padding: 25px;
+    border-radius: 20px;
+    max-width: 450px;
+    margin: 0 auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+ol {
+    text-align: left;
+    padding-left: 20px;
+}
+
+li {
+    margin: 8px 0;
+    font-weight: 500;
+}
